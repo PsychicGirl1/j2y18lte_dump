@@ -1,0 +1,3 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Version string: Linux version 3.18.31-13696519 (dpi@SWDH7914) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Dec 2 15:12:08 KST 2020
+[+] Guessed architecture: armle successfully in 3.74 seconds

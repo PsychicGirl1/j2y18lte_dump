@@ -1,0 +1,6 @@
+service remotedisplay /system/bin/remotedisplay
+    class main
+    user remotedisplay
+    group system inet media_rw drmrpc net_bt_stack
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks

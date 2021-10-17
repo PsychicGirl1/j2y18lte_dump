@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/******************************************************************************
+*  Copyright (C) 2016 Verizon Wireless
+*  All Rights Reserved. Verizon Wireless Proprietary and Confidential.
+*  *****************************************************************************
+*/
+-->
+<permissions>
+<!--
+QCOM_DIAG permission will be maintained by RIL team.
+    <permission name="com.qualcomm.permission.QCOM_DIAG"> 
+        <group gid="qcom_diag"/>
+        <group gid="diag"/>
+    </permission>
+-->
+    <permission name="com.qualcomm.permission.QCOM_RADIO">
+        <group gid="radio"/>
+    </permission>
+
+    <permission name="com.qualcomm.permission.QCOM_AUDIO">
+        <group gid="audio"/>
+    </permission>
+</permissions>
